@@ -11,7 +11,7 @@ Return true if such an array exists or false otherwise.
 A binary array is an array containing only 0's and 1's
 */
 
-var doesValidArrayExist = function(derived) {
+let doesValidArrayExist = function(derived) {
     let xr = 0;
     for(let val of derived){
         xr = xr^val;
