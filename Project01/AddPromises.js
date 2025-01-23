@@ -4,9 +4,8 @@ Que:Given two promises promise1 and promise2, return a new promise. promise1 and
 
 
 let addTwoPromises = async function(promise1, promise2) {
-    let ans = await(promise1)+await(promise2);
-
-    return ans;
+    
+    return Promise.resolve(await(promise1)+ await(promise2));
 };
 
 
