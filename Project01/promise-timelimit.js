@@ -3,7 +3,7 @@
  * @param {number} t
  * @return {Function}
  */
-var timeLimit = function(fn, t) {
+let timeLimit = function(fn, t) {
     
     return async function(...args) {
 
